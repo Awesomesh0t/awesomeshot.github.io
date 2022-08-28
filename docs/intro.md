@@ -1,47 +1,39 @@
 ---
-sidebar_position: 4
+id: intro
+title: Installation
+sidebar_position: 1
 ---
 
-# Tutorial Intro
+### Termux (Android)
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+> NOTE: awesomeshot is now available in the official repos
 
 ```bash
-npm init docusaurus@latest my-website classic
+pkg i awesomeshot
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Linux
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+- Clone repository
 
 ```bash
-cd my-website
-npm run start
+git clone https://github.com/mayTermux/awesomeshot
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+- Run Makefile (inside the directory)
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```bash
+sudo make install
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Windows
+
+```bash
+git clone https://github.com/mayTermux/awesomeshot
+```
+
+- Run Makefile (inside the directory)
+
+```bash
+sudo make install
+```
