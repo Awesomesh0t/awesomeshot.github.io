@@ -44,6 +44,19 @@ const BannerHome = () => {
         alt="Awesomeshot 2"
       />
 
+      <img 
+        className="banner_img"
+        src="/img/awesomeshot.gif"
+        alt="Awesomeshot GIF"
+      />
+
+      <img 
+        className="banner_img"
+        src="/img/awesomeshot2.gif"
+        alt="Awesomeshot 2 GIF"
+      />
+ 
+
     </div>
   );
 };
