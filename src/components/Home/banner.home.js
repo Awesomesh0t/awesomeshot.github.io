@@ -27,10 +27,23 @@ const BannerHome = () => {
       <BannerText />
 
       <img
-        className="banner_img"
+        className="banner_img_left"
         src="/img/awesomeshot.png"
         alt="Awesomeshot"
       />
+
+      <img 
+        className="banner_img_right"
+        src="/img/awesomeshot2.png"
+        alt="Awesomeshot 2"
+      />
+
+      <img 
+        className="banner_img"
+        src="/img/awesomeshot3.png"
+        alt="Awesomeshot 2"
+      />
+
     </div>
   );
 };
